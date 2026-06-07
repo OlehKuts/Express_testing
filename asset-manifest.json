@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/express_testing/static/css/main.73df5a36.css",
+    "main.js": "/express_testing/static/js/main.e4c1cecf.js",
+    "index.html": "/express_testing/index.html",
+    "main.73df5a36.css.map": "/express_testing/static/css/main.73df5a36.css.map",
+    "main.e4c1cecf.js.map": "/express_testing/static/js/main.e4c1cecf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73df5a36.css",
+    "static/js/main.e4c1cecf.js"
+  ]
+}
