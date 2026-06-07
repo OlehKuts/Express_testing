@@ -1,39 +1,38 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const questions = [
-    {
-        id: 0,
-        question: "Якого кольору ведмедика я подарував тобі на День Народження?",
-        correct: "Коричневий",
-        options: ["Білий", "Коричневий", "Рожевий", "Чорний"]
-      },
-      { id: 1, question: "З чим я переборщив під час нашої другої зустрічі?",
-         correct: "Парфуми", options: ["Гостинність", "Солодощі", "Парфуми", "Поцілунки"] },
-      { id: 2, question: "З якою піснею можна асоціювати третю зустріч?",
-         correct: 'Скрябін "Cтарі фотографії"', options: ['Скрябін "Cтарі фотографії"', 'KAZKA "Плакала"', 'WELLBOY "Гуси"', 'Океан Ельзи "Квітка"']},
-      { id: 3, question: "За кого тебе прийняла працівниця дитячого інфекційного відділення, коли ми пили чай зранку перед парами?",
-         correct: "Дитину", options: ["Лікаря", "Студентку", "Маму дитини", "Дитину"] },
-      { id: 4, question: "Дай відповідь на останнє запитання. Ким ти є для мене?",
-         correct: "Усім переліченим", options: ["Коханою дівчиною", "Бажаною жінкою", "Близьким другом", "Усім переліченим"] }
+  {
+    id: 0,
+    question: "Яка властивість робить сітку елементів?",
+    correct: "grid",
+    options: ["flex", "table", "block", "grid"],
+  },
+  {
+    id: 1,
+    question: "Яке значення position притискає елемент при скролі?",
+    correct: "sticky",
+    options: ["absolute", "sticky", "relative", "static"],
+  },
+  {
+    id: 2,
+    question: "Який селектор обирає елемент за його id?",
+    correct: "#",
+    options: [".", "#", "::", "*"],
+  },
+  {
+    id: 3,
+    question: "В якій одиниці вимірюється ширина в'юпорту?",
+    correct: "vw",
+    options: ["vh", "px", "em", "vw"],
+  },
+  {
+    id: 4,
+    question: "Яка властивість змінює колір тексту?",
+    correct: "color",
+    options: ["color", "background", "font-weight", "text-style"],
+  },
 ];
 
-export const greeting = "Пройшов місяць, як ми зустрічаємося. Софіє, пропоную тобі пройти цікаве тестування!";
-export const gratitude = "Дякую, що ти є в моєму житті!";
-export const finalPhrase = "Квіти швидко в'януть, а ведмедик тішитиме кохану людину дуже довго."
-// export const lorem10 = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt impedit sequi vitae eos porro aperiam quasi."
-
-// const loremOptions = ["lorem1", "lorem2", "lorem3", "lorem4"]
-// export const testQuestions = [{
-//    id: 0, question: lorem10, correct: "lorem1", options: loremOptions
-// },
-// {
-//    id: 1, question: lorem10, correct: "lorem1", options: loremOptions
-// },
-// {
-//    id: 2, question: lorem10, correct: "lorem1", options: loremOptions
-// },
-// {
-//    id: 3, question: lorem10, correct: "lorem1", options: loremOptions
-// },
-// {
-//    id: 4, question: lorem10, correct: "lorem1", options: loremOptions
-// },
-// ]
+export const greeting = "Пропоную Вам пройти швидке тестування з основ CSS!";
+export const gratitude = "Дякую, що пройшли це тестування!";
+export const finalPhrase = "Успіхів Вам у веб-розробці!";
