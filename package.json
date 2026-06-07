@@ -2,7 +2,7 @@
   "name": "express-testing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OlehKuts.github.io/express_testing",
+  "homepage": "https://OlehKuts.github.io/Express_testing",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
