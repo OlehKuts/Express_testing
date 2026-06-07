@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 📱 Express Testing — Gamified Mobile Quiz Web Application Built with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Express Testing** is an interactive, game-style quiz web application designed specifically for mobile and tablet screens. The core purpose of this project is to provide a fast, fun, and efficient way to test web technology skills (CSS) while tracking score updates in real-time.
 
-## Available Scripts
+🚀 **Live Demo**: [View the project on GitHub Pages](https://OlehKuts.github.io/Express_testing)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Demo (Screenshots)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To quickly visualize the gameplay and core functionality of the application, review the demonstration screenshots below:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+|                Wrong Answer Visual                |                End of Quiz (Results)                |
+| :-----------------------------------------------: | :-------------------------------------------------: |
+| ![Wrong answer screen](./assets/wrong_answer.png) | ![Last question screen](./assets/last_question.png) |
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- **Gamified Scoring System**: User scores update dynamically on the screen based on answer correctness, giving immediate performance feedback.
+- **Intuitive Color Feedback**: Instant visual response upon selection — correct and incorrect answers are clearly highlighted with corresponding colors.
+- **Mobile-First Design**: The interface, layout proportions, button sizing, and text lengths are tailored exclusively for modern smartphone displays.
+- **Modern Architecture**: Built using React functional components combined with state hooks to manage complex quiz behavior.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Core Library**: React (Functional Components)
+- **Responsiveness & Layout Control**: `react-responsive` (handling responsive rendering conditionally within React components)
+- **Styling**: Pure CSS3 (optimized for a compact, mobile-friendly layout)
+- **Package Manager**: npm
+- **Deployment**: GitHub Pages
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Installation and Local Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally on your machine and test it inside a mobile browser emulator:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com
+   ```
 
-## Learn More
+2. **Navigate to the project directory:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd Express_testing
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Install the dependencies:**
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Start the development server:**
+   ```bash
+   npm start
+   # or 'npm run dev' if the project is built with Vite
+   ```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Once the application is running, open [http://localhost:3000](http://localhost:3000) in your browser and press **F12** to enable device emulation for mobile viewing.
